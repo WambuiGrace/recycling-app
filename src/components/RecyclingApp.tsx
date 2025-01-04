@@ -113,71 +113,77 @@ const RecyclingApp = () => {
             <div className="p-4 flex justify-center">
               <div className="max-w-7xl w-full px-4 sm:px-6 lg:px-8">
                 <div className="mb-8">
-                  <h2 className="text-2xl font-bold text-gray-900 flex justify-center">Educational Resources</h2>
+                  <h2 className="text-3xl font-bold text-gray-900 flex justify-center">Educational Resources</h2>
                   <div className="mt-4 grid grid-cols-3 gap-4">
                     {/* Article section */}
                     <div className="w-full mb-6 col-span-full">
-                      <h3 className="text-xl font-semibold text-gray-800">Articles</h3>
-                      <p className="text-gray-600">Explore in-depth articles on the impact of plastic pollution.</p>
+                      <h3 className="text-2xl font-semibold text-gray-800 flex justify-center">Articles</h3>
+                      <p className="text-gray-600 flex justify-center">Explore in-depth articles on the impact of plastic pollution</p>
                     </div>
                     <Card className="w-full px-2 mb-4">
                       <CardHeader>
-                        <CardTitle className="text-xl font-semibold text-gray-900">Article 1</CardTitle>
+                        <CardTitle className="text-xl font-semibold text-gray-900">The Invisible Chains: How Plastic Entangles and Imperils Marine Life</CardTitle>
                       </CardHeader>
                       <CardContent>
                         <img src="1.jpg" alt="Article 1" className="mb-4 w-full h-32 object-cover" />
-                        <p className="text-gray-700">The Impact of Plastic Pollution on Marine Life</p>
+                        <p className="text-gray-700">The Impact of Plastic Pollution on Marine Life...</p>
+                        <a href="" className="text-green-800 hover:underline">Read more</a>
                       </CardContent>
                     </Card>
                     <Card className="w-full px-2 mb-4">
                       <CardHeader>
-                        <CardTitle className="text-xl font-semibold text-gray-900">Article 2</CardTitle>
+                        <CardTitle className="text-xl font-semibold text-gray-900">Plastic's Peril: The Hidden Threat to Our Health</CardTitle>
                       </CardHeader>
                       <CardContent>
                         <img src="1.jpg" alt="Article 2" className="mb-4 w-full h-32 object-cover" />
-                        <p className="text-gray-700">How Plastic Pollution Affects Human Health</p>
+                        <p className="text-gray-700">How Plastic Pollution Affects Human Health...</p>
+                        <a href="" className="text-green-800 hover:underline">Read more</a>
                       </CardContent>
                     </Card>
                     <Card className="w-full px-2 mb-4">
                       <CardHeader>
-                        <CardTitle className="text-xl font-semibold text-gray-900">Article 3</CardTitle>
+                        <CardTitle className="text-xl font-semibold text-gray-900">Investing in the Future: The Economic Case for Ending Plastic Pollution</CardTitle>
                       </CardHeader>
                       <CardContent>
                         <img src="1.jpg" alt="Article 3" className="mb-4 w-full h-32 object-cover" />
                         <p className="text-gray-700">The Economic Costs of Plastic Pollution</p>
+                        <a href="" className="text-green-800 hover:underline">Read more</a>
                       </CardContent>
                     </Card>
                     
                     {/* Video section */}
                     <div className="w-full mb-6 col-span-full">
-                      <h3 className="text-xl font-semibold text-gray-800">Videos</h3>
-                      <p className="text-gray-600">Watch informative videos about plastic pollution and its solutions.</p>
+                      <h3 className="text-2xl font-semibold text-gray-800 flex justify-center">Videos</h3>
+                      <p className="text-gray-600 flex justify-center">Watch informative videos about plastic pollution and its solutions.</p>
                     </div>
                     <Card className="w-full px-2 mb-4">
                       <CardHeader>
-                        <CardTitle className="text-xl font-semibold text-gray-900">Video 1</CardTitle>
+                        <CardTitle className="text-xl font-semibold text-gray-900">Plastic's Odyssey</CardTitle>
                       </CardHeader>
                       <CardContent>
                       <img src="/api/placeholder/640/360" alt="Video thumbnail" className="w-full h-48 object-cover rounded-md mb-4"/>
                         <p className="text-gray-700">The Journey of Plastic Waste</p>
+                        <a href="" className="text-green-800 hover:underline">View</a>
                       </CardContent>
                     </Card>
                     <Card className="w-full px-2 mb-4">
                     <CardHeader>
-                      <CardTitle className="text-xl font-semibold text-gray-900">Video 2</CardTitle>
+                      <CardTitle className="text-xl font-semibold text-gray-900">Breaking Free: Solutions to the Plastic Crisis</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <img src="/api/placeholder/640/360" alt="Video thumbnail" className="w-full h-48 object-cover rounded-md mb-4"/>
                       <p className="text-gray-700">Innovative Solutions to Plastic Pollution</p>
+                      <a href="" className="text-green-800 hover:underline">View</a>
                     </CardContent>
                   </Card>
                     <Card className="w-full px-2 mb-4">
                       <CardHeader>
-                        <CardTitle className="text-xl font-semibold text-gray-900">Video 3</CardTitle>
+                        <CardTitle className="text-xl font-semibold text-gray-900">The Secret Life of Plastic</CardTitle>
                       </CardHeader>
                       <CardContent>
                         <img src="/api/placeholder/640/360" alt="Video thumbnail" className="w-full h-48 object-cover rounded-md mb-4"/>
                         <p className="text-gray-700">The Journey of Plastic Waste</p>
+                        <a href="" className="text-green-800 hover:underline">View</a>
                       </CardContent>
                     </Card>
                   </div>
@@ -246,36 +252,38 @@ const RecyclingApp = () => {
               <div className="mt-4 grid grid-cols-3 gap-4">
                 {/* Workshop section */}
                 <div className="w-full mb-6 col-span-full">
-                  <h3 className="text-xl font-semibold text-gray-800">Workshops</h3>
-                  <p className="text-gray-600">View upcoming workshops on recycling and upcycling, and register online.</p>
+                  <h3 className="text-2xl font-semibold text-gray-800 flex justify-center">Workshops</h3>
+                  <p className="text-gray-600 flex justify-center">View upcoming workshops on recycling and upcycling, and register online.</p>
                 </div>
                 <Card className="w-full px-2 mb-4">
                   <CardHeader>
-                    <CardTitle className="text-xl font-semibold text-gray-900">Workshop 1</CardTitle>
+                    <CardTitle className="text-xl font-semibold text-gray-900">Recycling Basics</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700">Date: 2023-11-01</p>
-                    <p className="text-gray-700">Topic: Recycling Basics</p>
+                    <p className="font-semibold text-gray-700">Date: 11-01-2025</p>
+                    <p className="text-gray-700">Here's a short excerpt on Recycling Basics:Recycling BasicsRecycling is the process of converting waste materials into new useful objects to prevent waste of potentially useful materials, reduce the consumption of fresh raw materials, reduce energy usage, and reduce air pollution and water pollution by reducing the need for conventional waste disposal methods.   </p>
+                    <br />
                     <button className="mt-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Register</button>
                   </CardContent>
                 </Card>
                 <Card className="w-full px-2 mb-4">
                   <CardHeader>
-                    <CardTitle className="text-xl font-semibold text-gray-900">Workshop 2</CardTitle>
+                    <CardTitle className="text-xl font-semibold text-gray-900">Upcycling Projects</CardTitle>
                   </CardHeader>
                   <CardContent>
-                  <p className="text-gray-700">Date: 2023-11-15</p>
-                    <p className="text-gray-700">Topic: Upcycling Projects</p>
+                  <p className="font-semibold text-gray-700">Date: 15-01-2025</p>
+                    <p className="text-gray-700">Upcycling is the process of transforming discarded or unwanted items into something new and useful. It's a creative and sustainable way to reduce waste and give new life to old objects.</p>
+                    <br /><br /><br /><br /><br />
                     <button className="mt-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Register</button>
                   </CardContent>
                 </Card>
                 <Card className="w-full px-2 mb-4">
                   <CardHeader>
-                    <CardTitle className="text-xl font-semibold text-gray-900">Workshop 3</CardTitle>
+                    <CardTitle className="text-xl font-semibold text-gray-900">Advanced Recycling Techniques</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700">Date: 2023-12-01</p>
-                    <p className="text-gray-700">Topic: Advanced Recycling Techniques</p>
+                    <p className="font-semibold text-gray-700">Date: 21-01-2025</p>
+                    <p className="text-gray-700">Advanced recycling technologies offer innovative solutions to the global plastic waste crisis. These techniques go beyond traditional mechanical recycling, which often faces limitations due to contamination and the difficulty of sorting complex plastic mixtures. Advanced recycling methods aim to break down plastic waste into its molecular building blocks, enabling the creation of high-quality, virgin-like materials.</p>
                     <button className="mt-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Register</button>
                   </CardContent>
                 </Card>
@@ -307,29 +315,29 @@ const RecyclingApp = () => {
                 </div>
                 <Card className="w-full px-2 mb-4">
                   <CardHeader>
-                    <CardTitle className="text-xl font-semibold text-gray-900">Discussion 1</CardTitle>
+                    <CardTitle className="text-xl font-semibold text-gray-900"> Topic: Best Practices for Recycling at Home</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700">Topic: Best Practices for Recycling at Home</p>
-                    <button className="mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Join Discussion</button>
+                    <p className="text-gray-700"></p>
+                    <button className="mt-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Join Discussion</button>
                   </CardContent>
                 </Card>
                 <Card className="w-full px-2 mb-4">
                   <CardHeader>
-                    <CardTitle className="text-xl font-semibold text-gray-900">Discussion 2</CardTitle>
+                    <CardTitle className="text-xl font-semibold text-gray-900">Topic: Innovative Upcycling Ideas </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700">Topic: Innovative Upcycling Ideas</p>
-                    <button className="mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Join Discussion</button>
+                    <p className="text-gray-700"></p> <br />
+                    <button className="mt-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Join Discussion</button>
                   </CardContent>
                   </Card>
                 <Card className="w-full px-2 mb-4">
                   <CardHeader>
-                    <CardTitle className="text-xl font-semibold text-gray-900">Discussion 3</CardTitle>
+                    <CardTitle className="text-xl font-semibold text-gray-900">Topic: Reducing Plastic Waste in Daily Life </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700">Topic: Reducing Plastic Waste in Daily Life</p>
-                    <button className="mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Join Discussion</button>
+                    <p className="text-gray-700"></p>
+                    <button className="mt-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Join Discussion</button>
                   </CardContent>
                 </Card>
                 
@@ -358,8 +366,8 @@ const RecyclingApp = () => {
       <nav className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <span className="text-xl font-bold text-gray-950">Recycling App</span>
+            <div className="flex items-center"> 
+              <span className="text-xl font-bold text-gray-950">Eco Connect</span>
             </div>
             <div className="flex items-center space-x-4">
               <Bell className="w-6 h-6 text-gray-900" />
